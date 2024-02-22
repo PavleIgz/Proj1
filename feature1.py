@@ -27,7 +27,7 @@ def reader():
         except:
             flag = False
             pass
-        
+
     return sum
 
 def main():
@@ -37,3 +37,5 @@ def main():
     return 0
 
 main()
+
+#some additions to the feature
