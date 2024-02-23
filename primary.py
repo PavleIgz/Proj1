@@ -35,9 +35,9 @@ def main():
     for i in range(n):
         for j in range(m):
             if (j <= i):
-                mat[i][j] = 111
+                mat[i][j] = 1111
             else:
-                 mat[i][j] = 000
+                 mat[i][j] = 0000
 
     for i in range(n):
             print(f"{mat[i]} ") #printamo n puta, arrayeve velicine m
